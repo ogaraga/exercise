@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>learning scripting</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form onsubmit="formSubmit()" class="form">
+      <div class="inputFields">
+        <label for="name">First Name</label><br />
+        <input type="text" name="fname" id="name1" /><br />
+
+        <label for="name">Last Name</label><br />
+        <input type="text" name="lname" id="name2" /><br />
+
+        <label for="email">Email</label><br />
+        <input type="email" name="email" id="email" /><br />
+      </div>
+      <button type="submit">Submit form</button><br />
+      <h3 style="color: blue">Try submitting this form and see the margic!</h3>
+    </form>
+    <div class="tablewrapper">
+      <h1 id="hone">LIST OF USERS</h1>
+      <form action="" class="deform">
+        <table class="de-table">
+          <thead class="de-head">
+            <tr class="tris">
+              <th id="1">FirstName</th>
+              <th id="2">LastName</th>
+              <th id="3">Email</th>
+            </tr>
+          </thead>
+          <tbody class="de-body">
+            <tr>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

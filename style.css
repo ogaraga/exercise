@@ -1,0 +1,68 @@
+.form {
+  background-color: aqua;
+  width: 70%;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  display: grid;
+  place-items: center;
+}
+label {
+  text-transform: uppercase;
+}
+input {
+  padding: 10px;
+  width: 60%;
+  margin: 5px auto;
+}
+button {
+  padding: 10px;
+  width: 60%;
+}
+body {
+  display: grid;
+  place-items: center;
+}
+.inputFields {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tablewrapper {
+  width: 70%;
+  background-color: aqua;
+  padding: 10px;
+  margin: 10px auto;
+  display: none;
+}
+h1 {
+  text-align: center;
+  margin: 5px auto;
+  color: thistle;
+  font-weight: bolder;
+}
+.deform {
+  background-color: coral;
+  width: 70%;
+  height: auto;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.de-head {
+  width: 100%;
+}
+th {
+  padding: 5px 15px;
+  color: white;
+}
+.de-body {
+  width: 100%;
+}
+td {
+  color: blue;
+  text-align: center;
+  word-wrap: break-word;
+}
